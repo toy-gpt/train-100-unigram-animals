@@ -1,7 +1,9 @@
 # Toy-GPT: train-100-unigram-animals
 
-[![PyPI version](https://img.shields.io/pypi/v/toy-gpt-train-100-unigram-animals)](https://pypi.org/project/toy-gpt-train-100-unigram-animals/)
-[![Latest Release](https://img.shields.io/github/v/release/toy-gpt/train-100-unigram-animals)](https://github.com/toy-gpt/train-100-unigram-animals/releases)
+<!-- Links to reference impl for PyPi and latest release -->
+
+[![PyPI version](https://img.shields.io/pypi/v/toy-gpt-train-100-unigram)](https://pypi.org/project/toy-gpt-train-100-unigram/)
+[![Latest Release](https://img.shields.io/github/v/release/toy-gpt/train-100-unigram)](https://github.com/toy-gpt/train-100-unigram/releases)
 [![Docs](https://img.shields.io/badge/docs-live-blue)](https://toy-gpt.github.io/train-100-unigram-animals/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/license/MIT)
 [![CI](https://github.com/toy-gpt/train-100-unigram-animals/actions/workflows/ci-python-mkdocs.yml/badge.svg?branch=main)](https://github.com/toy-gpt/train-100-unigram-animals/actions/workflows/ci-python-mkdocs.yml)
