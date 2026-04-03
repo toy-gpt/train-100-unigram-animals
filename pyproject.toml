@@ -42,7 +42,7 @@ classifiers = [
 dependencies = [
     # REQ.DEPS: External packages used by the project code.
     "datafun-toolkit",
-    "toy-gpt-train-100-unigram>=0.9.6",
+    "toy-gpt-train-100-unigram",
 ]
 
 [project.optional-dependencies]
@@ -76,6 +76,11 @@ docs = [
 Documentation = "https://toy-gpt.github.io/train-100-unigram-animals/"
 Issues = "https://github.com/toy-gpt/train-100-unigram-animals/issues"
 Repository = "https://github.com/toy-gpt/train-100-unigram-animals"
+
+# === BANDIT (SECURITY LINTING) ===
+
+[tool.bandit]
+skips = ["B105"] # WHY: tokens are not secrets in this project; they are the core data being modeled.
 
 # === DEPTRY (CHECK FOR UNDECLARED OR UNUSED DEPENDENCIES) ===
 

@@ -1060,14 +1060,14 @@ wheels = [
 
 [[package]]
 name = "toy-gpt-train-100-unigram"
-version = "0.9.6"
+version = "0.9.8"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "datafun-toolkit" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/58/b8/7eacf13bbbc85d205b5e85a4b814aa455d82df347b832d505ec9d703bed4/toy_gpt_train_100_unigram-0.9.6.tar.gz", hash = "sha256:7ada8d7a55e8ccefbf82580d1fa0ac74841d1f08e8571cb2f21a3ce0e5e8deb0", size = 81858, upload-time = "2026-01-20T12:45:45.177Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/ea/7b/8a5972b2899493b6fafb66fd1f136953072f5f3c1f30235af2245f2b97bc/toy_gpt_train_100_unigram-0.9.8.tar.gz", hash = "sha256:49700c5caaa04f03efa16c90d32a962ecc0bbc1b808583ef5ea6abb31dbebb16", size = 84334, upload-time = "2026-04-03T02:48:49.791Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/12/c5/20997ea46c05721da0e70a1b375f17873f263494391bf951d9197ee83b13/toy_gpt_train_100_unigram-0.9.6-py3-none-any.whl", hash = "sha256:46819803e18e3d4ca23a7fa538d950de87ed21b9f17acf76f7c16a5062b08f64", size = 24386, upload-time = "2026-01-20T12:45:44.08Z" },
+    { url = "https://files.pythonhosted.org/packages/4b/b9/51cfdfaa9668213bdf7aedf02ca1a4804f4fae75e74cc5b6b173968afbe6/toy_gpt_train_100_unigram-0.9.8-py3-none-any.whl", hash = "sha256:09890c4c9bd3f8d4718417e30f5e429cada8513168fc911e808076401f7ffaf7", size = 24252, upload-time = "2026-04-03T02:48:48.119Z" },
 ]
 
 [[package]]
@@ -1115,7 +1115,7 @@ requires-dist = [
     { name = "pytest", marker = "extra == 'dev'" },
     { name = "pytest-cov", marker = "extra == 'dev'" },
     { name = "ruff", marker = "extra == 'dev'" },
-    { name = "toy-gpt-train-100-unigram", specifier = ">=0.9.6" },
+    { name = "toy-gpt-train-100-unigram" },
     { name = "twine", marker = "extra == 'dev'" },
     { name = "validate-pyproject", marker = "extra == 'dev'" },
 ]
