@@ -32,6 +32,9 @@ from pathlib import Path
 from typing import Final
 
 from datafun_toolkit.logger import get_logger, log_header
+from toy_gpt_train_animals.a_tokenizer import DEFAULT_CORPUS_PATH, SimpleTokenizer
+from toy_gpt_train_animals.b_vocab import Vocabulary
+
 from toy_gpt_train.c_model import SimpleNextTokenModel
 from toy_gpt_train.d_train import (
     make_training_targets,
@@ -43,9 +46,6 @@ from toy_gpt_train.io_artifacts import (
     write_training_log,
 )
 from toy_gpt_train.math_training import argmax
-
-from toy_gpt_train_animals.a_tokenizer import DEFAULT_CORPUS_PATH, SimpleTokenizer
-from toy_gpt_train_animals.b_vocab import Vocabulary
 
 LOG: logging.Logger = get_logger("TRAIN", level="INFO")
 

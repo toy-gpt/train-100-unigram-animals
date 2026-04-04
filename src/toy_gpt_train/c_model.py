@@ -20,6 +20,7 @@ Training is handled in a different module.
 import logging
 
 from datafun_toolkit.logger import get_logger, log_header
+
 from toy_gpt_train.c_model import SimpleNextTokenModel
 
 __all__ = ["SimpleNextTokenModel"]
